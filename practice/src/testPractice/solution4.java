@@ -1,4 +1,4 @@
-package CodingTest;
+package testPractice;
 
 public class solution4 {
 //임의의 양의 정수 n에 대해, n이 어떤 양의 정수 x의 제곱인지 아닌지 판단하려 합니다.
@@ -28,3 +28,15 @@ public class solution4 {
 //Math.sqrt(n) => n값의 제곱근을 double형으로 반환. 단, 음수사용시 NaN 출력
 //x.intValue() => x값을 int값으로 반환
 //Math.pow(n, 2) => n값의 2승을 double형으로 반환.
+
+
+//************************************************************************
+//class Solution {
+//	  public long solution(long n) {
+//	      if (Math.pow((int)Math.sqrt(n), 2) == n) {
+//	            return (long) Math.pow(Math.sqrt(n) + 1, 2);
+//	        }
+//
+//	        return -1;
+//	  }
+//	}
